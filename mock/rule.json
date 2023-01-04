@@ -1,0 +1,455 @@
+{
+  "respCode": "0",
+  "message": "",
+  "data": {
+    "records": [{
+      "baseName" : "首年度佣金(FYC)",
+      "contents": [{"content": "寿险首年度佣金(FYC) = 寿险首年度保费 ✖ 寿险首年度保费比率"}],
+      "baseTitle" : "寿险首年度保费比率",
+      "inputData" : {
+        "object" : "1",
+        "const" : "3",
+        "ratio" : "2",
+        "value" : "0.3"
+      }
+    },{
+      "baseName" : "续年度佣金(RYC)",
+      "contents": [{"content": "续年度佣金 = 续年度实收保费 ✖ 续年度佣金率"}],
+      "baseTitle" : "续年度佣金率",
+      "inputData" : {
+        "object" : "2",
+        "const" : "3",
+        "ratio" : "3",
+        "value" : "0.2"
+      }
+    },{
+      "baseName" : "新人有责底薪",
+      "rules" :[{
+        "min" : "0.3万元(含)",
+        "content" : "寿险标保",
+        "max" : "0.5万元",
+        "result" : "300元"
+      },{
+        "min" : "0.5万元(含)",
+        "content" : "寿险标保",
+        "max" : "1万元",
+        "result" : "500元"
+      },{
+        "min" : "1万元(含)",
+        "content" : "寿险标保",
+        "max" : "无",
+        "result" : "1000元"
+      }],
+      "contents": [{"content": "新人有责底薪"}],
+      "baseTitle" : "新人有责底薪"
+    },{
+      "baseName" : "个人销售绩效奖",
+      "rules" :[{
+        "min" : "0.3万元(含)",
+        "content" : "寿险标保",
+        "max" : "1万元",
+        "result" : "5%"
+      },{
+        "min" : "1万元(含)",
+        "content" : "寿险标保",
+        "max" : "2万元",
+        "result" : "6%"
+      },{
+        "min" : "2万元(含)",
+        "content" : "寿险标保",
+        "max" : "5万元",
+        "result" : "7%"
+      },{
+        "min" : "5万元(含)",
+        "content" : "寿险标保",
+        "max" : "无",
+        "result" : "10%"
+      }],
+      "contents": [{"content": "个人销售绩效奖 = 当月完成寿险标保 ✖ 绩效奖比率"}],
+      "baseTitle" : "绩效奖比率",
+      "inputData" : {
+        "object" : "2",
+        "const" : "3",
+        "ratio" : "4",
+        "value" : "0.5"
+      }
+    },{
+      "baseName" : "养老补贴",
+      "rules" :[{
+        "min" : "2万元(含)",
+        "content" : "上一自然季本人寿险标保",
+        "max" : "无",
+        "result" : "200元/月"
+      },{
+        "min" : "1万元(含)",
+        "content" : "上一自然季本人开单月数",
+        "max" : "2个月",
+        "result" : "200元/月"
+      }],
+      "contents": [{"content": "养老补贴"}],
+      "baseTitle" : "养老补贴"
+    },{
+      "baseName" : "增员辅导奖",
+      "rules" :[{
+        "min" : "1个月",
+        "content" : "被增员服务时间",
+        "max" : "12个月",
+        "result" : "4.5%"
+      },{
+        "min" : "13个月",
+        "content" : "被增员服务时间",
+        "max" : "24个月",
+        "result" : "5.0%"
+      },{
+        "min" : "25个月",
+        "content" : "被增员服务时间",
+        "max" : "无",
+        "result" : "5.5%"
+      }],
+      "contents": [{"content": "增员辅导奖 = 被增员人完成当月寿险标保 ✖ 费用系数 ✖ 增员辅导奖比率"}],
+      "baseTitle" : "增员辅导奖比率",
+      "inputData" : {
+        "object" : "4",
+        "const" : "3",
+        "ratio" : "1",
+        "const1" : "3",
+        "ratio1" : "5",
+        "value1" : "0.5",
+        "value2" : "0.5"
+      }
+    }],
+    "columns" : [
+      {
+        "title": "序号",
+        "type": "index",
+        "width": 80,
+        "align": "center"
+      },
+      {
+        "title": "对象",
+        "key": "obj",
+        "align": "center"
+      },
+      {
+        "title": "条件",
+        "key": "rule",
+        "align": "center"
+      },
+      {
+        "title": "值",
+        "key": "value",
+        "align": "center"
+      }
+    ],
+    "total": 6,
+    "size": 10,
+    "current": 1,
+    "searchCount": true,
+    "pages": 1,
+    "ruleCode" : "RULE_CODE_2"
+  },
+  "dataNew": {
+    "records": [{
+      "baseName" : "首年度佣金(FYC)",
+      "contents": [{"content": "寿险首年度佣金(FYC) = 寿险首年度保费 ✖ 寿险首年度保费比率"}],
+      "baseTitle" : "寿险首年度保费比率"
+    },{
+      "baseName" : "续年度佣金(RYC)",
+      "contents": [{"content": "续年度佣金 = 续年度实收保费 ✖ 续年度佣金率"}],
+      "baseTitle" : "续年度佣金率"
+    },{
+      "baseName" : "新人有责底薪",
+      "rules" :[{
+        "min" : "0.3万元(含)",
+        "content" : "寿险标保",
+        "max" : "0.5万元",
+        "result" : "300元"
+      },{
+        "min" : "0.5万元(含)",
+        "content" : "寿险标保",
+        "max" : "1万元",
+        "result" : "500元"
+      },{
+        "min" : "1万元(含)",
+        "content" : "寿险标保",
+        "max" : "无",
+        "result" : "1000元"
+      }],
+      "contents": [{"content": "新人有责底薪"}],
+      "baseTitle" : "新人有责底薪"
+    },{
+      "baseName" : "个人销售绩效奖",
+      "rules" :[{
+        "min" : "0.3万元(含)",
+        "content" : "寿险标保",
+        "max" : "1万元",
+        "result" : "5%"
+      },{
+        "min" : "1万元(含)",
+        "content" : "寿险标保",
+        "max" : "2万元",
+        "result" : "6%"
+      },{
+        "min" : "2万元(含)",
+        "content" : "寿险标保",
+        "max" : "5万元",
+        "result" : "7%"
+      },{
+        "min" : "5万元(含)",
+        "content" : "寿险标保",
+        "max" : "无",
+        "result" : "10%"
+      }],
+      "contents": [{"content": "个人绩效奖 = 当月完成寿险标保 ✖ ️绩效奖比率"}],
+      "baseTitle" : "️绩效奖比率"
+    },{
+      "baseName" : "养老补贴",
+      "rules" :[{
+        "min" : "2万元(含)",
+        "content" : "上一自然季本人寿险标保",
+        "max" : "无",
+        "result" : "200元/月"
+      },{
+        "min" : "1万元(含)",
+        "content" : "上一自然季本人开单月数",
+        "max" : "2个月",
+        "result" : "200元/月"
+      }],
+      "contents": [{"content": "养老补贴"}],
+      "baseTitle" : "养老补贴"
+    },{
+      "baseName" : "增员辅导奖",
+      "rules" :[{
+        "min" : "1个月",
+        "content" : "被增员服务时间",
+        "max" : "12个月",
+        "result" : "4.5%"
+      },{
+        "min" : "13个月",
+        "content" : "被增员服务时间",
+        "max" : "24个月",
+        "result" : "5.0%"
+      },{
+        "min" : "25个月",
+        "content" : "被增员服务时间",
+        "max" : "无",
+        "result" : "5.5%"
+      }],
+      "contents": [{"content": "增员辅导奖 = 被增员人完成当月寿险标保 ✖ 费用系数 ✖ 增员辅导奖比率"}],
+      "baseTitle" : "增员辅导奖比率"
+    },
+      {
+        "baseName" : "直辖组管理津贴",
+        "rules" :[{
+          "min" : "无",
+          "content" : "直辖组月有效人力",
+          "max" : "3人",
+          "result" : "3%"
+        },{
+          "min" : "3人(含)",
+          "content" : "直辖组月有效人力",
+          "max" : "7人",
+          "result" : "5%"
+        },{
+          "min" : "7人(含)",
+          "content" : "直辖组月有效人力",
+          "max" : "无",
+          "result" : "7%"
+        }],
+        "contents": [{"content": "(1)理财经理完成直辖组辅导日志"},
+          {"content": "(2)理财经理个人综合出勤率≥80%"},
+          {"content": "直辖组管理津贴 = 直辖组当月标保 ✖ 费用系数 ✖ 直辖组管理津贴比率"}],
+        "baseTitle" : "直辖组管理津贴比率"
+      },
+      {
+        "baseName" : "育才奖",
+        "rules" :[],
+        "contents": [{"content": "理财经理育成理财经理，自被育成人晋升理财经理的次月享受育才奖"},
+          {"content": "育才奖=当月一代被育成理财经理直辖组寿险标保✖️费用系数✖️百分比"},
+          {"content": "育成人降级为理财主任及以下职级，则其本人和直辖组组员回归原理财经理，不享受育才奖。"},
+          {"content": "育成人一年内再次晋升至原职级且原组织关系没有发生改变的情况下，其原育才利益恢复，其他情况不予恢复。"},
+          {"content": "当被育成的理财经理晋升为理财总监时，育成者继续享有育才奖。"}],
+        "baseTitle" : "直辖组管理津贴比率"
+      }],
+    "columns" : [
+      {
+        "title": "序号",
+        "type": "index",
+        "width": 80,
+        "align": "center"
+      },
+      {
+        "title": "对象",
+        "key": "obj",
+        "align": "center"
+      },
+      {
+        "title": "条件",
+        "key": "rule",
+        "align": "center"
+      },
+      {
+        "title": "值",
+        "key": "value",
+        "align": "center"
+      }
+    ],
+    "total": 6,
+    "size": 10,
+    "current": 1,
+    "searchCount": true,
+    "pages": 1,
+    "ruleCode" : "RULE_CODE_6"
+  },
+  "data1": {
+    "records": [{
+      "baseName" : "首年度佣金(FYC)",
+      "contents": [{"content": "寿险首年度佣金(FYC) = 寿险首年度保费 ✖ 寿险首年度保费比率"}],
+      "baseTitle" : "寿险首年度保费比率",
+      "inputData" : {
+        "object" : "1",
+        "const" : "3",
+        "ratio" : "2",
+        "value" : "0.3"
+      }
+    },{
+      "baseName" : "续年度佣金(RYC)",
+      "contents": [{"content": "续年度佣金 = 续年度实收保费 ✖ 续年度佣金率"}],
+      "baseTitle" : "续年度佣金率",
+      "inputData" : {
+        "object" : "2",
+        "const" : "3",
+        "ratio" : "3",
+        "value" : "0.2"
+      }
+    }],
+    "total": 2,
+    "size": 10,
+    "current": 1,
+    "searchCount": true,
+    "pages": 1,
+    "ruleCode" : "RULE_CODE_1"
+  },
+  "dataUp": {
+    "records": [{
+      "type" : "check",
+      "baseName" : "理财顾问考核",
+      "contents": [{"content": "理财顾问任职满一个自然季，在最近一个自然季的工作月内达到晋升标准，自该自然季次月晋升为理财主任"},
+        {"content": "理财顾问每个自然季的工作月内必须完成至少一件当季交单且承包的寿险标保，否则公司将解除与其签订的代理合同"}],
+      "baseTitle" : "理财顾问考核",
+      "rules" : [{
+        "obj" : "晋升考核期",
+        "rule" : "为",
+        "value" : "一个自然季"
+      },
+        {
+          "obj" : "寿险标保",
+          "rule" : "为",
+          "value" : "0.3万元"
+        },
+        {
+          "obj" : "行为考察",
+          "rule" : "为",
+          "value" : "优良"
+        },
+        {
+          "obj" : "综合出勤率",
+          "rule" : "为",
+          "value" : "80%以上"
+        }]
+    }],
+    "columns" : [
+      {
+        "title": "序号",
+        "type": "index",
+        "width": 80,
+        "align": "center"
+      },
+      {
+        "title": "对象",
+        "key": "obj",
+        "align": "center"
+      },
+      {
+        "title": "条件",
+        "key": "rule",
+        "align": "center"
+      },
+      {
+        "title": "值",
+        "key": "value",
+        "align": "center"
+      }
+    ],
+    "total": 2,
+    "size": 10,
+    "current": 1,
+    "searchCount": true,
+    "pages": 1,
+    "ruleCode" : "RULE_CODE_5"
+  },
+  "dataHeadUp": {
+    "records": [{
+      "type" : "check",
+      "baseName" : "理财主任考核",
+      "contents": [{"content": "理财主任任职满一个自然季，在最近一个自然季的工作月内达到晋升标准，自该自然季次月晋升为理财经理"},
+        {"content": "理财主任任职满一个自然季，在最近一个自然季的工作月内理财主任必须完成寿险标保不低于0.3万元，否则自该自然季次月降级为理财顾问"}],
+      "baseTitle" : "理财主任考核",
+      "rules" : [{
+        "obj" : "晋升考核期",
+        "rule" : "为",
+        "value" : "一个自然季"
+      },
+        {
+          "obj" : "寿险标保",
+          "rule" : "为",
+          "value" : "0.3万元"
+        },
+        {
+          "obj" : "月均有效人力/准直辖组寿险标保(取其一)",
+          "rule" : "为",
+          "value" : "2人/3万元"
+        },
+        {
+          "obj" : "行为考察",
+          "rule" : "为",
+          "value" : "优良"
+        },
+        {
+          "obj" : "综合出勤率",
+          "rule" : "为",
+          "value" : "80%以上"
+        }]
+    }],
+    "columns" : [
+      {
+        "title": "序号",
+        "type": "index",
+        "width": 80,
+        "align": "center"
+      },
+      {
+        "title": "对象",
+        "key": "obj",
+        "align": "center"
+      },
+      {
+        "title": "条件",
+        "key": "rule",
+        "width": 70,
+        "align": "center"
+      },
+      {
+        "title": "值",
+        "key": "value",
+        "align": "center"
+      }
+    ],
+    "total": 2,
+    "size": 10,
+    "current": 1,
+    "searchCount": true,
+    "pages": 1
+  },
+  "ok": true
+}

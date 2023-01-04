@@ -1,0 +1,178 @@
+
+
+{
+	"respCode": "0",
+	"message": "",
+	"data": {
+		"current": 1,
+		"pages": 2,
+		"records": [
+			{
+				"teamCode": "10001",
+				"teamName": "天津团队241",
+				"parentName": "天津南开营业部",
+				"agentLevel": "经理",
+				"leaderName": "张泽智",
+				"foundDATE": "2019/6/6 14:18:07",
+				"teamStatus": "0"
+			},
+		
+			{
+				"teamCode": "10002",
+				"teamName": "天津团队242",
+				"parentName": "天津南开营业部",
+				"agentLevel": "顾问",
+				"leaderName": "张泽智",
+				"foundDATE": "2019/6/6 14:18:07",
+				"teamStatus": "0"
+			},
+		
+			{
+				"teamCode": "10003",
+				"teamName": "天津团队243",
+				"parentName": "天津南开营业部",
+				"agentLevel": "主任",
+				"leaderName": "张泽智",
+				"foundDATE": "2019/6/6 14:18:07",
+				"teamStatus": "0"
+			},
+		
+			{
+				"teamCode": "10004",
+				"teamName": "天津团队244",
+				"parentName": "天津南开营业部",
+				"agentLevel": "见习主任",
+				"leaderName": "张泽智",
+				"foundDATE": "2019/6/6 14:18:07",
+				"teamStatus": "0"
+			},
+		
+			{
+				"teamCode": "10005",
+				"teamName": "天津团队245",
+				"parentName": "天津南开营业部",
+				"agentLevel": "见习主任",
+				"leaderName": "张泽智",
+				"foundDATE": "2019/6/6 14:18:07",
+				"teamStatus": "0"
+			},
+		
+			{
+				"teamCode": "10006",
+				"teamName": "天津团队246",
+				"parentName": "天津南开营业部",
+				"agentLevel": "见习主任",
+				"leaderName": "张泽智",
+				"foundDATE": "2019/6/6 14:18:07",
+				"teamStatus": "0"
+			},
+		
+			{
+				"teamCode": "10007",
+				"teamName": "天津团队247",
+				"parentName": "天津南开营业部",
+				"agentLevel": "总监",
+				"leaderName": "张泽智",
+				"foundDATE": "2019/6/6 14:18:07",
+				"teamStatus": "0"
+			},
+		
+			{
+				"teamCode": "10008",
+				"teamName": "天津团队248",
+				"parentName": "天津南开营业部",
+				"agentLevel": "总监",
+				"leaderName": "张泽智",
+				"foundDATE": "2019/6/6 14:18:07",
+				"teamStatus": "0"
+			},
+		
+			{
+				"teamCode": "10009",
+				"teamName": "天津团队249",
+				"parentName": "天津南开营业部",
+				"agentLevel": "见习总监",
+				"leaderName": "张泽智",
+				"foundDATE": "2019/6/6 14:18:07",
+				"teamStatus": "0"
+			},
+		
+			{
+				"teamCode": "100010",
+				"teamName": "天津团队2410",
+				"parentName": "天津南开营业部",
+				"agentLevel": "顾问",
+				"leaderName": "张泽智",
+				"foundDATE": "2019/6/6 14:18:07",
+				"teamStatus": "0"
+			}
+			
+			],
+			"records2": [
+				{
+					"teamCode": "100011",
+					"teamName": "天津团队2411",
+					"parentName": "天津南开营业部",
+					"agentLevel": "顾问",
+					"leaderName": "张泽智",
+					"foundDATE": "2019/6/6 14:18:07",
+					"teamStatus": "0"
+				},
+			
+				{
+					"teamCode": "100012",
+					"teamName": "天津团队2412",
+					"parentName": "天津南开营业部",
+					"agentLevel": "顾问",
+					"leaderName": "张泽智",
+					"foundDATE": "2019/6/6 14:18:07",
+					"teamStatus": "0"
+				},
+			
+				{
+					"teamCode": "100013",
+					"teamName": "天津团队2413",
+					"parentName": "天津南开营业部",
+					"agentLevel": "主任",
+					"leaderName": "张泽智",
+					"foundDATE": "2019/6/6 14:18:07",
+					"teamStatus": "0"
+				},
+			
+				{
+					"teamCode": "100014",
+					"teamName": "天津团队2414",
+					"parentName": "天津南开营业部",
+					"agentLevel": "顾问",
+					"leaderName": "张泽智",
+					"foundDATE": "2019/6/6 14:18:07",
+					"teamStatus": "0"
+				},
+			
+				{
+					"teamCode": "100015",
+					"teamName": "天津团队2415",
+					"parentName": "天津南开营业部",
+					"agentLevel": "见习经理",
+					"leaderName": "张泽智",
+					"foundDATE": "2019/6/6 14:18:07",
+					"teamStatus": "0"
+				},
+			
+				{
+					"teamCode": "100016",
+					"teamName": "天津团队2416",
+					"parentName": "天津南开营业部",
+					"agentLevel": "经理",
+					"leaderName": "张泽智",
+					"foundDATE": "2019/6/6 14:18:07",
+					"teamStatus": "0"
+				}
+			],
+		"searchCount": true,
+		"total": 16,
+		"size": 10
+	
+	},
+	"ok": true
+}

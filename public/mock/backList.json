@@ -1,0 +1,21 @@
+{
+	"respCode": "0",
+	"message": "",
+	"data": {
+		"records": [{
+			"agentCode": "201909301622",
+			"agentName": "陆雪",
+			"deptName": "苏州张家港支公司榕苑路营业部",
+			"reason": "客户投诉",
+			"implDate": "2020-01-01",
+			"auditState": "1",
+			"status": "1"
+		}],
+		"total": 2,
+		"size": 10,
+		"current": 1,
+		"searchCount": true,
+		"pages": 1
+	},
+	"ok": true
+}

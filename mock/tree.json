@@ -1,0 +1,130 @@
+{
+    "data": [
+        {
+            "deptNo": "11010000",
+            "expand": true,
+            "id": "11010000",
+            "level": "0",
+            "parentId": "0",
+            "status": "0",
+            "title": "中国人寿北京总公司",
+            "children":[
+                {
+                    "deptNo": "11010001",
+                    "expand": true,
+                    "id": "111",
+                    "level": "1",
+                    "parentId": "11010000",
+                    "status": "0",
+                    "title": "中国人寿北京海淀分公司业务部",
+                    "children":[
+                        {
+                            "deptNo": "11010002",
+                            "expand": true,
+                            "id": "111",
+                            "level": "2",
+                            "parentId": "11010001",
+                            "status": "0",
+                            "title": "中国人寿北京顺义中心支公司业务部",
+                            "children":[
+                                {
+                                    "deptNo": "11010003",
+                                    "expand": true,
+                                    "id": "111",
+                                    "level": "3",
+                                    "parentId": "11010002",
+                                    "status": "0",
+                                    "title": "中国人寿北京大兴支公司业务部",
+                                    "children":[]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "deptNo": "12010000",
+            "expand": true,
+            "id": "22",
+            "level": "0",
+            "parentId": "0",
+            "status": "0",
+            "title": "平安人寿深圳总公司",
+            "children":[
+                {
+                    "deptNo": "12010001",
+                    "expand": true,
+                    "id": "222",
+                    "level": "1",
+                    "parentId": "12010000",
+                    "status": "0",
+                    "title": "平安人寿天津分公司业务部",
+                    "children":[ 
+                        {
+                        "deptNo": "12010002",
+                        "expand": true,
+                        "id": "222",
+                        "level": "2",
+                        "parentId": "12010001",
+                        "status": "0",
+                        "title": "平安人寿天津津南中心支公司业务部",
+                        "children":[ 
+                            {
+                            "deptNo": "12010003",
+                            "expand": true,
+                            "id": "222",
+                            "level": "3",
+                            "parentId": "12010002",
+                            "status": "0",
+                            "title": "平安人寿天津塘沽支公司业务部",
+                            "children":[]
+                        }]
+                    }]
+                }
+            ]
+        },
+        {
+            "deptNo": "13110000",
+            "expand": true,
+            "id": "33",
+            "level": "0",
+            "parentId": "0",
+            "status": "0",
+            "title": "太平洋人寿上海总公司",
+            "children":[
+                {
+                    "deptNo": "13110001",
+                    "expand": true,
+                    "id": "333",
+                    "level": "1",
+                    "parentId": "13110000",
+                    "status": "0",
+                    "title": "太平洋人寿济南分公司业务部",
+                    "children":[ 
+                        {
+                        "deptNo": "13110002",
+                        "expand": true,
+                        "id": "333",
+                        "level": "2",
+                        "parentId": "13110001",
+                        "status": "0",
+                        "title": "太平洋人寿济南历下中心支公司业务部",
+                        "children":[ 
+                            {
+                            "deptNo": "13110003",
+                            "expand": true,
+                            "id": "333",
+                            "level": "3",
+                            "parentId": "13110002",
+                            "status": "3",
+                            "title": "太平洋人寿济南章丘支公司业务部",
+                            "children":[ 
+                               ]
+                        }]
+                    }]
+                }
+            ]
+        }
+    ]
+}

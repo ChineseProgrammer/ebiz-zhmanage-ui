@@ -1,0 +1,170 @@
+// 设置宽度
+.set-width(@i) when (@i < length(@width-list)+1) {
+    .width(extract(@width-list, @i)) !important;
+    .set-width(@i+1);
+}
+
+.width(@width) {
+    .w@{width} {
+        width: unit(@width, px);
+    }
+}
+
+// 设置高度
+.set-height(@i) when (@i < length(@width-list)+1) {
+    .height(extract(@width-list, @i)) !important;
+    .set-height(@i+1);
+}
+
+.height(@height) {
+    .h@{height} {
+        height: unit(@height, px)
+    }
+}
+
+// 设置圆角弧度
+.set-radius(@i) when (@i < length(@radius)+1) {
+    .radius(extract(@radius, @i)) !important;
+    .set-radius(@i+1);
+}
+
+.radius(@radius) {
+    .radius@{radius} {
+        border-radius: unit(@radius, px)
+    }
+}
+
+// 设置透明度
+.set-opacity(@i) when (@i < length(@opacity)+1) {
+    .opacity(extract(@opacity, @i)) !important;
+    .set-opacity(@i+1);
+}
+
+.opacity(@opacity) {
+    .opacity@{opacity} {
+        opacity: unit(@opacity/10)
+    }
+}
+
+// 设置内外边距
+.set-distance(@i) when (@i < length(@distance-list)+1) {
+    .set-className(@j) when (@j < length(@distance-class-list)+1) {
+        .distance(extract(@distance-class-list, @j), extract(@distance-list, @i)) !important;
+        .set-className(@j+1);
+    }
+
+    .set-className(1);
+    .set-distance(@i+1);
+}
+
+.distance(m, @distance) {
+    .m@{distance} {
+        margin: unit(@distance, px);
+    }
+}
+
+.distance(mv, @distance) {
+    .mv@{distance} {
+        margin-top   : unit(@distance, px);
+        margin-bottom: unit(@distance, px);
+    }
+}
+
+.distance(mh, @distance) {
+    .mh@{distance} {
+        margin-left : unit(@distance, px);
+        margin-right: unit(@distance, px);
+    }
+}
+
+.distance(mt, @distance) {
+    .mt@{distance} {
+        margin-top: unit(@distance, px);
+    }
+}
+
+.distance(ml, @distance) {
+    .ml@{distance} {
+        margin-left: unit(@distance, px);
+    }
+}
+
+.distance(mr, @distance) {
+    .mr@{distance} {
+        margin-right: unit(@distance, px);
+    }
+}
+
+.distance(mb, @distance) {
+    .mb@{distance} {
+        margin-bottom: unit(@distance, px);
+    }
+}
+
+.distance(p, @distance) {
+    .p@{distance} {
+        padding: unit(@distance, px);
+    }
+}
+
+.distance(pv, @distance) {
+    .pv@{distance} {
+        padding-top   : unit(@distance, px);
+        padding-bottom: unit(@distance, px);
+    }
+}
+
+.distance(ph, @distance) {
+    .ph@{distance} {
+        padding-left : unit(@distance, px);
+        padding-right: unit(@distance, px);
+    }
+}
+
+.distance(pt, @distance) {
+    .pt@{distance} {
+        padding-top: unit(@distance, px);
+    }
+}
+
+.distance(pl, @distance) {
+    .pl@{distance} {
+        padding-left: unit(@distance, px);
+    }
+}
+
+.distance(pr, @distance) {
+    .pr@{distance} {
+        padding-right: unit(@distance, px);
+    }
+}
+
+.distance(pb, @distance) {
+    .pb@{distance} {
+        padding-bottom: unit(@distance, px);
+    }
+}
+
+.distance(top, @distance) {
+    .top@{distance} {
+        top: unit(@distance, px);
+    }
+}
+
+.distance(left, @distance) {
+    .left@{distance} {
+        left: unit(@distance, px);
+    }
+}
+
+.distance(right, @distance) {
+    .right@{distance} {
+        right: unit(@distance, px);
+    }
+}
+
+.distance(bottom, @distance) {
+    .bottom@{distance} {
+        bottom: unit(@distance, px);
+    }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1">
+  <link rel="icon" href="<%= BASE_URL %>logoImg2.png">
+  
+
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but baseframe doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <script src="http://passport.cnblogs.com/scripts/jsencrypt.min.js"></script>
+  <!-- 页面探针 uat -->
+  <script>  var CWRUMLICENCE = 'wS0n2SF8WRDB0iOsCaTCO**BpxQfmmgrW9DJ08StJbFn9yDEIM6sjZnGt6lVUSXPP';</script>
+  <script src="http://114.255.240.41:18080/api/browser/settings/v70/js?app_key=wS0n2SF8WRDB0iOsCaTCO**BpxQfmmgrW9DJ08StJbFn9yDEIM6sjZnGt6lVUSXPP"></script>
+  <!-- 页面探针 prd 
+  <script>  var CWRUMLICENCE = 'wS0n2SF8WRDB0iOsCaTCO**BpxQfmmgrWKPfyrca6EL6Qxz1QEMYPGnGpHZz1B/Gl';</script>
+  <script src="http://114.255.240.41:18080/api/browser/settings/v70/js?app_key=wS0n2SF8WRDB0iOsCaTCO**BpxQfmmgrWKPfyrca6EL6Qxz1QEMYPGnGpHZz1B/Gl"></script>
+-->
+  
+  <!-- <title>综合管理系统</title> -->
+  <!-- <script type = "text/javascript" src="../src/api/setBaseUrl.js"></script>
+   <script type = "text/javascript" src="../src/zhugeCommon.js"></script> -->
+      <script src="https://cdn.bootcss.com/eruda/1.5.8/eruda.min.js"></script>
+  <script>
+    if(sessionStorage.getItem("h5_eruda")==1){
+      eruda.init(); 
+      sessionStorage.removeItem("h5_eruda");
+    }
+  </script>
+</body>
+
+</html>

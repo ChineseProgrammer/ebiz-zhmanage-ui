@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "agentCode": 201909301622,
+      "agentName": "陆雪",
+      "deptName": null,
+      "jobName": "总监",
+      "agentPhone": 13652033079,
+      "idCard": 110101199003072033,
+      "agentSex": 1,
+      "rankBefore": null,
+      "deptBefore": null,
+      "rankNew": null,
+      "deptNew": null,
+      "agentStatus": 0,
+      "joinFrom": 1,
+      "checkStatus": 0
+    },
+    {
+      "agentCode": 201909301678,
+      "agentName": "聂浦和",
+      "deptName": null,
+      "jobName": "营业部经理",
+      "agentPhone": 15208181010,
+      "idCard": 431021197602116785,
+      "agentSex": 0,
+      "rankBefore": null,
+      "deptBefore": null,
+      "rankNew": null,
+      "deptNew": null,
+      "agentStatus": 1,
+      "joinFrom": 1,
+      "checkStatus": 0
+    },
+    {
+      "agentCode": 201909301642,
+      "agentName": "尹宜",
+      "deptName": null,
+      "jobName": "高级客户经理",
+      "agentPhone": 13308238746,
+      "idCard": 110101199003073175,
+      "agentSex": 1,
+      "rankBefore": null,
+      "deptBefore": null,
+      "rankNew": null,
+      "deptNew": null,
+      "agentStatus": 1,
+      "joinFrom": 1,
+      "checkStatus": 0
+    }
+  ]
+}

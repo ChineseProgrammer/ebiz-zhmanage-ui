@@ -1,0 +1,539 @@
+{
+    "data1":[
+        {
+            "title": "工作台",
+            "expand": true,
+            "children": [
+                {
+                    "title": "工作台",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "渠道管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "公司管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "基本法管理",
+                    "expand": true,
+                    "checked":true
+                },{
+                    "title": "营业员管理",
+                    "expand": true,
+                    "checked":true
+                },{
+                    "title": "收入管理",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "协议管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "公司协议管理",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "客户管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "客户信息管理",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "结算管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "内部结算",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "保费结算",
+                    "expand": true,
+                    "checked":true
+                },{
+                    "title": "外部结算",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "影像管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "影像管理",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "运营管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "保单管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "续期管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "缴费管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "卡单管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "计绩月管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "继续率管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "产品销售列表",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "竞赛管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "竞赛管理",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "资料流转",
+            "expand": true,
+            "children": [
+                {
+                    "title": "资料流转",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "系统管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "用户管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "角色管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "权限管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "组织架构",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        }
+    ],
+    "data2":[
+        {
+            "title": "工作台",
+            "expand": true,
+            "children": [
+                {
+                    "title": "工作台",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "渠道管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "公司管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "基本法管理",
+                    "expand": true,
+                    "checked":true
+                },{
+                    "title": "营业员管理",
+                    "expand": true,
+                    "checked":true
+                },{
+                    "title": "收入管理",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "协议管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "公司协议管理",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "客户管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "客户信息管理",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "结算管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "内部结算",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "保费结算",
+                    "expand": true,
+                    "checked":true
+                },{
+                    "title": "外部结算",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "影像管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "影像管理",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "运营管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "保单管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "续期管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "缴费管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "卡单管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "计绩月管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "继续率管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "产品销售列表",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "竞赛管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "竞赛管理",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "资料流转",
+            "expand": true,
+            "children": [
+                {
+                    "title": "资料流转",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "系统管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "用户管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "角色管理",
+                    "expand": true,
+                    "checked":false
+                },
+                {
+                    "title": "权限管理",
+                    "expand": true,
+                    "checked":false
+                },
+                {
+                    "title": "组织架构",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        }
+    ],
+    "data3":[
+        {
+            "title": "工作台",
+            "expand": true,
+            "children": [
+                {
+                    "title": "工作台",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "渠道管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "公司管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "基本法管理",
+                    "expand": true,
+                    "checked":true
+                },{
+                    "title": "营业员管理",
+                    "expand": true,
+                    "checked":true
+                },{
+                    "title": "收入管理",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "协议管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "公司协议管理",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "客户管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "客户信息管理",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "结算管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "内部结算",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "保费结算",
+                    "expand": true,
+                    "checked":true
+                },{
+                    "title": "外部结算",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "影像管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "影像管理",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "运营管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "保单管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "续期管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "缴费管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "卡单管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "计绩月管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "继续率管理",
+                    "expand": true,
+                    "checked":true
+                },
+                {
+                    "title": "产品销售列表",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "竞赛管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "竞赛管理",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "资料流转",
+            "expand": true,
+            "children": [
+                {
+                    "title": "资料流转",
+                    "expand": true,
+                    "checked":true
+                }
+            ]
+        },
+        {
+            "title": "系统管理",
+            "expand": true,
+            "children": [
+                {
+                    "title": "用户管理",
+                    "expand": true,
+                    "checked":false
+                },
+                {
+                    "title": "角色管理",
+                    "expand": true,
+                    "checked":false
+                },
+                {
+                    "title": "权限管理",
+                    "expand": true,
+                    "checked":false
+                },
+                {
+                    "title": "组织架构",
+                    "expand": true,
+                    "checked":false
+                }
+            ]
+        }
+    ]
+}

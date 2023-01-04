@@ -1,0 +1,187 @@
+{
+    "data": [
+        {
+            "deptNo": "10010000",
+            "expand": true,
+            "parentId": "0",
+            "status": "0",
+            "title": "保单号",
+            "children":[
+                {
+                    "deptNo": "10010001",
+                    "expand": true,
+                    "parentId": "11010000",
+                    "status": "0",
+                    "title": "8828902042300006",
+                    "children":[
+                        {
+                            "deptNo": "100100011",
+                            "expand": true,
+                            "parentId": "11010000",
+                            "status": "0",
+                            "title": "钟博文-保险",
+                            "children":[
+                               
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "deptNo": "10010002",
+                    "expand": true,                  
+                    "parentId": "11010000",
+                    "status": "0",
+                    "title": "6642112233600005",
+                    "children":[
+                        {
+                            "deptNo": "100100021",
+                            "expand": true,                  
+                            "parentId": "11010000",
+                            "status": "0",
+                            "title": "宋子豪-保险",
+                            "children":[
+                               
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "deptNo": "10010003",
+                    "expand": true,                  
+                    "parentId": "11010000",
+                    "status": "0",
+                    "title": "3101001910000005",
+                    "children":[
+                        {
+                            "deptNo": "100100031",
+                            "expand": true,                  
+                            "parentId": "11010000",
+                            "status": "0",
+                            "title": "朱飞-保险",
+                            "children":[
+                               
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "deptNo": "10010004",
+                    "expand": true,                  
+                    "parentId": "11010000",
+                    "status": "0",
+                    "title": "8828902042300005",
+                    "children":[
+                        {
+                            "deptNo": "100100041",
+                            "expand": true,                  
+                            "parentId": "11010000",
+                            "status": "0",
+                            "title": "李一阳-保险",
+                            "children":[
+                               
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "deptNo": "10010005",
+                    "expand": true,                  
+                    "parentId": "11010000",
+                    "status": "0",
+                    "title": "6642112233600004",
+                    "children":[
+                        {
+                            "deptNo": "100100051",
+                            "expand": true,                  
+                            "parentId": "11010000",
+                            "status": "0",
+                            "title": "王雪佳-保险",
+                            "children":[
+                               
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "deptNo": "10010006",
+                    "expand": true,                  
+                    "parentId": "11010000",
+                    "status": "0",
+                    "title": "3101001910000004",
+                    "children":[
+                        {
+                            "deptNo": "100100061",
+                            "expand": true,                  
+                            "parentId": "11010000",
+                            "status": "0",
+                            "title": "朱佳怡-保险",
+                            "children":[
+                               
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "deptNo": "10010007",
+                    "expand": true,                  
+                    "parentId": "11010000",
+                    "status": "0",
+                    "title": "8828902042300004",
+                    "children":[
+                        {
+                            "deptNo": "100100071",
+                            "expand": true,                  
+                            "parentId": "11010000",
+                            "status": "0",
+                            "title": "王俊文-保险",
+                            "children":[
+                               
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "deptNo": "10010008",
+                    "expand": true,                  
+                    "parentId": "11010000",
+                    "status": "0",
+                    "title": "6642112233600003",
+                    "children":[
+                        {
+                            "deptNo": "100100081",
+                            "expand": true,                  
+                            "parentId": "11010000",
+                            "status": "0",
+                            "title": "高倩玉-保险",
+                            "children":[
+                               
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "deptNo": "10010009",
+                    "expand": true,                  
+                    "parentId": "11010000",
+                    "status": "0",
+                    "title": "3101001910000003",
+                    "children":[
+                        {
+                            "deptNo": "100100091",
+                            "expand": true,                  
+                            "parentId": "11010000",
+                            "status": "0",
+                            "title": "栾慧国-保险",
+                            "children":[
+                               
+                            ]
+                        }
+                    ]
+                }
+
+            ]
+        }
+        
+        
+    ]
+}
