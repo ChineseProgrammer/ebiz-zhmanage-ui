@@ -2,7 +2,7 @@
  * @Author: 于学文
  * @Date: 2019-04-02 11:08:39
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2022-02-18 15:33:13
+ * @Last Modified time: 2023-01-12 22:56:11
  */
 import Main from "../views/Main";
 // 不作为Main组件的子页面展示的页面单独写，如下
@@ -1417,7 +1417,8 @@ export const mainRouter = [
         ]
       }
     ]
-  },{
+  },
+  {
     title: "场景管理",
     icon: "ios-pulse",
     path: "/sceneManagement",
@@ -1491,7 +1492,32 @@ export const mainRouter = [
         hidden: false
       }
     ]
-  }
+  },
+  {
+    title: "活动排期管理",
+    icon: "ios-pulse",
+    path: "/sceneManagement",
+    name: "sceneManagement",
+    component: () => import("../views/secMenurouter.vue"),
+    redirect: "/sceneManagement",
+    meta: {
+      cardTitle: "场景管理",
+    },
+    hidden: false,
+    children: [
+      {
+        path: "/asAdministration",
+        title: "活动排期管理",
+        name: "asAdministration",
+        component: () => import("../views/activityScheduling/asAdministration.vue"),
+        meta: {
+          title: "活动排期管理",
+          cardTitle: "活动排期管理",
+        },
+        hidden: false
+      }
+    ]
+  },
 ];
 
 export const projectRouter = [
